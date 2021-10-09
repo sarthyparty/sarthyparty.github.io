@@ -1,38 +1,46 @@
-.App {
+body {
+  background-color: whitesmoke;
+  padding: 50px;
+  margin: 0;
+}
+h1, h2, p, ul, li {
+  font-family: "Courier New", "Courier New", Monospace;
+}
+ul.sidebar li {
+  display: inline;
+  list-style-type: none;
+}
+ul.sidebar li a {
+  color: #FFF;
+  font-size: x-large;
+  text-decoration: none;
+  padding: 45px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+ul.sidebar {
+  background-color: #282828;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  position: relative;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content h2 {
+  padding: 0;
+  margin: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.content li {
+  margin-bottom: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+ul.sidebar li a:hover {
+  color: yellowgreen;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.active {
+  background-color: navy;
 }
+/*
+0C0032
+*/
