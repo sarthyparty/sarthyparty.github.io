@@ -3,6 +3,13 @@ body {
   padding: 50px;
   margin: 0;
 }
+
+h2 {
+  padding: 2.5%;
+  font-size: 250%;
+  font-weight: lighter;
+  text-align: left;
+}
 h1, h2, p, ul, li {
   font-family: "Courier New", "Courier New", Monospace;
 }
@@ -24,12 +31,15 @@ ul.sidebar {
   text-align: center;
 }
 
+ol li {
+  padding:1.5%;
+  font-size: 100%;
+  font: "Fira Mono";
+  text-align: left;
+}
+
 h1 {
   position: relative;
-}
-.content h2 {
-  padding: 0;
-  margin: 0;
 }
 .content li {
   margin-bottom: 10px;
