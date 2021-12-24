@@ -3,6 +3,8 @@ import About from "./About"
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact"
+import Education from "./Education";
+
 import './App.css';
 import {
   Route,
@@ -16,7 +18,7 @@ class App extends React.Component {
     return (
         <HashRouter>
             <div>
-                <ul className="sidebar">
+                {/* <ul className="sidebar">
                     <li><NavLink exact to="/">About</NavLink></li>
                     <li><NavLink to="/experience">Experience</NavLink></li>
                     <li><NavLink to="/projects">Projects</NavLink></li>
@@ -27,7 +29,13 @@ class App extends React.Component {
                     <Route path="/experience" component={Experience}/>
                     <Route path="/projects" component={Projects}/>
                     <Route path="/contact" component={Contact}/>
-                </div>
+                </div> */}
+                <About/>
+                <br/><br/><br/><br/>
+
+                <Experience/>
+                <Education/>
+
             </div>
         </HashRouter>
         

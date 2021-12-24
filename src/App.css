@@ -1,55 +1,18 @@
 body {
-  background-color: whitesmoke;
+  background-color: #F5F3F5;
   padding: 50px;
   margin: 0;
+  font-family: "Courier New", "Courier New", Monospace;
 }
 
-h2 {
-  padding: 2.5%;
-  font-size: 250%;
-  font-weight: lighter;
-  text-align: left;
-}
 h1, h2, p, ul, li {
   font-family: "Courier New", "Courier New", Monospace;
 }
-ul.sidebar li {
-  display: inline;
-  list-style-type: none;
-}
-ul.sidebar li a {
-  color: #FFF;
-  font-size: x-large;
-  text-decoration: none;
-  padding: 45px;
-  display: inline-block;
+
+.next {
+  font-size: large;
   font-weight: bold;
-}
-
-ul.sidebar {
-  background-color: #282828;
-  text-align: center;
-}
-
-ol li {
-  padding:1.5%;
-  font-size: 100%;
-  font: "Fira Mono";
-  text-align: left;
-}
-
-h1 {
-  position: relative;
-}
-.content li {
-  margin-bottom: 10px;
-}
-ul.sidebar li a:hover {
-  color: yellowgreen;
-  
-}
-.active {
-  background-color: navy;
+  color: #274690;
 }
 /*
 0C0032
