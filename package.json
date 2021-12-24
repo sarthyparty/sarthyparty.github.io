@@ -1,6 +1,6 @@
 {
-  "homepage": "http://sarthyparty.github.io/website-portfolio",
-  "name": "website_portfolio",
+  "homepage": "http://sarthyparty.github.io",
+  "name": "sarthyparty.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
