@@ -6,7 +6,7 @@ import "./About.css";
 class About extends React.Component {
   render(props) {
     const intro =
-      "So far I just code whatever seems interesting.";
+      "So far I just code whatever's not boring.";
     return (
       <div class="about">
         <div class="box">
