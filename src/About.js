@@ -6,7 +6,7 @@ import "./About.css";
 class About extends React.Component {
   render(props) {
     const intro =
-      "So far I just code whatever's not boring.";
+      "I code websites, and I am exploring NLP.";
     return (
       <div class="about">
         <div class="box">
@@ -14,7 +14,7 @@ class About extends React.Component {
         </div>
         <br></br>
         <div class="content">
-          <FadeIn delay={100}>
+          <FadeIn>
             {" "}
             {intro}
             <br></br>

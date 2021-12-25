@@ -12,4 +12,8 @@ class Contact extends React.Component {
     }
 }
 
+function Icon(props) {
+  
+}
+
 export default Contact
