@@ -1,0 +1,48 @@
+.projects {
+  text-align: center;
+}
+
+
+
+.image img:hover {
+  opacity: 0;
+  transition:opacity 0.2s;
+}
+
+.project a {
+  color: #302B27;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1025px) {
+  .body {
+    width: 50%;
+    margin: auto;
+    padding-top: 10%;
+    padding-bottom: 25%;
+    position: inherit;
+  }
+  
+  
+  .image img{
+    position: absolute;
+    width: 50%;
+    margin-left: -25%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .body {
+    width: 90%;
+    margin: auto;
+    padding-top: 10%;
+    padding-bottom: 25%;
+    position: inherit;
+  }
+  
+  
+  .image img{
+    position: absolute;
+    width: 90%;
+    margin-left: -45%;
+  }
+}

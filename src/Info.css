@@ -19,22 +19,20 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .info {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-
   .info input {
     background-color: transparent;
     border-width: 00px;
     text-align: left;
     margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 0px;
     color: #1b264f;
     font-size: 118%;
     font-family: monospace;
     padding-top: 3%;
     font-weight: bolder;
+    white-space: normal;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .info p,
@@ -62,6 +60,7 @@
     font-family: monospace;
     padding-top: 2.2%;
     font-weight: bolder;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .info p,
