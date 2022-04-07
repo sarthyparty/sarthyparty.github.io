@@ -13,7 +13,9 @@ function Info(props) {
     if (props.id == "first") {
       return (
         <div>
-        <br/><br/><br/>
+        <div class="instr">
+          <p id="instr">&nbsp;</p>
+        </div>
           <div class="info">
           <div class="open" id={props.id}>
             <input
