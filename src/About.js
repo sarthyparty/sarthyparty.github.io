@@ -6,7 +6,7 @@ import "./About.css";
 class About extends React.Component {
   render(props) {
     const intro =
-      "I code websites, and I am exploring NLP.";
+      "I build websites and apps.";
     return (
       <div class="about">
         <div class="box">
@@ -21,12 +21,12 @@ class About extends React.Component {
             <div class="next">
               <Link
                 activeClass="active"
-                to="experience"
+                to="projects"
                 spy={true}
                 smooth={true}
                 duration={500}
               >
-                <p>Go to Experience</p>
+                <p>Go to Projects</p>
               </Link>
             </div>
           </FadeIn>

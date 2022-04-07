@@ -1,6 +1,8 @@
 import React from "react";
 import { projects } from "./Data.js";
 import "./Projects.css";
+import { Link } from "react-scroll";
+
 class Projects extends React.Component {
   render() {
     return (
@@ -12,6 +14,18 @@ class Projects extends React.Component {
           <Project project={project} />
           </div>
         ))}
+        <div class="next">
+          <Link
+            activeClass="active"
+            to="experience"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+          <br></br>
+            <p>Go to Experience</p>
+          </Link>
+        </div>
       </div>
     );
   }

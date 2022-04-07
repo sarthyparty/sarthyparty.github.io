@@ -4,6 +4,7 @@ import Info from "./Info";
 import { Link } from "react-scroll";
 import FadeIn from "react-fade-in";
 
+
 class Experience extends React.Component {
   render() {
     return (
@@ -11,14 +12,16 @@ class Experience extends React.Component {
         <FadeIn>
           <h1>Experience</h1>
           <br />
-          <br />
-          <br />
-          <Info
-            title="Software Developer Intern"
-            location="Codeucate"
-            date="July 2020 - January 2021"
-            description="At first, I helped develop the course material for the courses. Then, I moved into the website development team, where I worked on a django backend and also worked a chatbot for the site."
-          />
+          
+          <div>
+            <Info
+              title="Software Developer Intern"
+              location="Codeucate"
+              date="July 2020 - January 2021"
+              description="At first, I helped develop the course material for the courses. Then, I moved into the website development team, where I worked on a django backend and also worked a chatbot for the site."
+              id="first"
+            />
+          </div>
           <br />
           <Info
             title="Project Lead"

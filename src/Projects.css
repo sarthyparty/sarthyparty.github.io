@@ -1,11 +1,13 @@
 .projects {
   text-align: center;
+  padding-top: 12%;
+  padding-bottom: 10%;
 }
 
 
 
 .image img:hover {
-  opacity: 0;
+  opacity: 0.1;
   transition:opacity 0.2s;
 }
 
@@ -17,6 +19,7 @@
 @media only screen and (min-width: 1025px) {
   .body {
     width: 50%;
+    height: 75%;
     margin: auto;
     padding-top: 10%;
     padding-bottom: 25%;
@@ -27,6 +30,7 @@
   .image img{
     position: absolute;
     width: 50%;
+    height: 65%;
     margin-left: -25%;
   }
 }
@@ -43,6 +47,7 @@
   .image img{
     position: absolute;
     width: 90%;
+    height: 50%;
     margin-left: -45%;
   }
 }

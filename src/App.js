@@ -33,9 +33,9 @@ class App extends React.Component {
                 <About/>
                 <br/><br/><br/><br/>
 
+                <Projects/>
                 <Experience/>
                 <Education/>
-                <Projects/>
 
             </div>
         </HashRouter>
