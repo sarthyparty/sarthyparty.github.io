@@ -10,7 +10,7 @@ function Info(props) {
     setExpanded(!expanded);
   };
   if (expanded) {
-    if (props.id == "first") {
+    if (props.id == "fist") {
       return (
         <div>
         <div class="instr">
@@ -48,7 +48,7 @@ function Info(props) {
 
     }
     
-  } else if (props.id == "first") {
+  } else if (props.id == "fist") {
     return (
       <div>
         <div class="instr">

@@ -33,6 +33,7 @@
     font-weight: bolder;
     white-space: normal;
     -webkit-tap-highlight-color: transparent;
+    text-decoration: underline;
   }
 
   .info p,
@@ -66,6 +67,8 @@
     padding-top: 2.2%;
     font-weight: bolder;
     -webkit-tap-highlight-color: transparent;
+    text-decoration: underline;
+
   }
 
   .info p,

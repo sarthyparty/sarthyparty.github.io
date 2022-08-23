@@ -12,7 +12,18 @@ class Experience extends React.Component {
         <FadeIn>
           <h1>Experience</h1>
           <br />
-          
+          <div>
+            <Info
+              title="Software Engineer Intern"
+              location="Optum"
+              date="June 2022 - August 2022"
+              description="My team’s project is to build a monitoring dashboard for 22+ microservices that deliver critical information for Optum's various services including Optum Bank.
+              Developed and deployed my own microservice to test the monitoring dashboard on by building the application with spring boot, setting a docker repository to store the image, initializing kubernetes pods with a deployment.yaml file, and building a Jenkins pipeline to rebuild and push the new image, and then restart the kubernetes pods.
+              "
+              id="first"
+            />
+          </div>
+          <br/>
           <div>
             <Info
               title="Software Developer Intern"
