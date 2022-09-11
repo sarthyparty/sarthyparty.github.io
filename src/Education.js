@@ -12,7 +12,7 @@ class Education extends React.Component {
         <br />
         <Info
           title="Computer Science Student"
-          location="University of Wisconsin - Madison"
+          location="University of Wisconsin"
           date="Sept. 2022 - Present"
           description="Well I just started, so not much to say. I am taking CS 400 and CS 252. "
         />

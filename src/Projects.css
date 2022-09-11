@@ -11,6 +11,16 @@
   transition:opacity 0.2s;
 }
 
+.image img:hover ~ .body p {
+  opacity: 1;
+}
+
+.body p {
+  opacity: 0;
+}
+
+
+
 .project a {
   color: #302B27;
   text-decoration: none;
@@ -41,7 +51,7 @@
     padding-top: 10%;
     padding-bottom: 25%;
     position: inherit;
-    font-size: smaller;
+    font-size: x-small;
   }
   
   

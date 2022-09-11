@@ -37,11 +37,12 @@ function Project(props) {
       <a href={props.project.link}>
         <div class="image">
           <img src={props.project.image} alt={props.project.name} />
-        </div>
-        <div class="body">
+          <div class="body">
           <h2>{props.project.name}</h2>
           <p>{props.project.description}</p>
         </div>
+        </div>
+        
       </a>
     </div>
   );
