@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import "./Info.css";
-import Xarrow from "react-xarrows";
+import { FcCollapse, FcExpand } from "react-icons/fc";
+
 
 
 function Info(props) {
@@ -10,66 +11,20 @@ function Info(props) {
     setExpanded(!expanded);
   };
   if (expanded) {
-    if (props.id == "fist") {
-      return (
-        <div>
-        <div class="instr">
-          <p id="instr">&nbsp;</p>
-        </div>
-          <div class="info">
-          <div class="open" id={props.id}>
-            <input
-              type="button"
-              onClick={handleClick}
-              value={props.title + " @ " + props.location}
-            />
-          </div>
-          <p>{props.description}</p>
-          <h3>{props.date}</h3>
-        </div>
-        </div>
-        
-      );
-
-    } else {
-      return (
-        <div class="info">
-          <div class="open" id={props.id}>
-            <input
-              type="button"
-              onClick={handleClick}
-              value={props.title + " @ " + props.location}
-            />
-          </div>
-          <p>{props.description}</p>
-          <h3>{props.date}</h3>
-        </div>
-      );
-
-    }
-    
-  } else if (props.id == "fist") {
     return (
-      <div>
-        <div class="instr">
-          <p id="instr">Click here to see more!</p>
+      <div class="info">
+        <div class="open" id={props.id}>
+          <input
+            type="button"
+            onClick={handleClick}
+            value={props.location}
+          />
+          <FcCollapse/>
         </div>
-        <Xarrow
-                start="instr" //can be react ref
-                end="first" 
-                id="arrow"//or an id
-            />
-        <div class="info">
-          <div class="open">
-            <input
-              type="button"
-              onClick={handleClick}
-              value={props.title + " @ " + props.location}
-              id={props.id}
-            />
-          </div>
-          <h3>{props.date}</h3>
-        </div>
+        <h4>{props.title}</h4>
+        <p>{props.description}</p>
+        <hr />
+        <h3>{props.date}</h3>
       </div>
     );
   } else {
@@ -79,10 +34,13 @@ function Info(props) {
           <input
             type="button"
             onClick={handleClick}
-            value={props.title + " @ " + props.location}
+            value={props.location}
             id={props.id}
           />
+          <FcExpand/>
         </div>
+        <h4>{props.title}</h4>
+        <hr />
         <h3>{props.date}</h3>
       </div>
     );

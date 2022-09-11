@@ -10,11 +10,18 @@ class Education extends React.Component {
         <h1>Education</h1>
         <br />
         <br />
+        <Info
+          title="Computer Science Student"
+          location="University of Wisconsin - Madison"
+          date="Sept. 2022 - Present"
+          description="Well I just started, so not much to say. I am taking CS 400 and CS 252. "
+        />
+        <br/>
         <div>
           <Info
             title="PSEO Student"
             location="University of Minnesota"
-            date="Sept. 2021 - Present"
+            date="Sept. 2021 - May 2022"
             description="Took Computer Science, Math, and Economics courses as a highschool student."
           />
         </div>
