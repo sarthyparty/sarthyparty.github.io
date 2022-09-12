@@ -38,7 +38,7 @@ class Experience extends React.Component {
             title="Project Lead"
             location="Futurist Academy"
             description="Worked on a lot of my fun projects in here. Made an attendance tracking site for clubs, a tiger graph solution for soccer match predictions, and learned a lot of web development skills."
-            date="December 2020 - Present"
+            date="December 2020 - May 2022"
           />
           <br />
           <br />
