@@ -1,6 +1,6 @@
 export const projects = [
   {
-    name: "Find My EP",
+    name: "EPHS Maps",
     description: 
     `Originally, we actually used DFS for pathfinding. However, as we incorporated more of the school into our app, we quickly ran into a speed issue with DFS and thus eventually switched to A star.
     
