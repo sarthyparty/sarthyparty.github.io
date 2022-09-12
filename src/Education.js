@@ -31,7 +31,7 @@ class Education extends React.Component {
         <Info
           title="Student"
           location="Eden Prairie High School"
-          date="Sept. 2018 - Present"
+          date="Sept. 2018 - June 2022"
           description="Enjoyed AP Java, learned a lot of coding during COVID."
         />
         <br />
