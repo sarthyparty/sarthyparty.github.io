@@ -6,21 +6,6 @@
 
 
 
-.image img:hover {
-  opacity: 0.1;
-  transition:opacity 0.2s;
-}
-
-.image img:hover ~ .body p {
-  opacity: 1;
-}
-
-.body p {
-  opacity: 0;
-}
-
-
-
 .project a {
   color: #302B27;
   text-decoration: none;
@@ -36,12 +21,24 @@
     position: inherit;
   }
   
+  .body p {
+    opacity: 0;
+  }
   
   .image img{
     position: absolute;
     width: 50%;
-    height: 65%;
+    height: 60%;
     margin-left: -25%;
+  }
+
+  .image img:hover {
+    opacity: 0.1;
+    transition:opacity 0.2s;
+  }
+  
+  .image img:hover ~ .body p {
+    opacity: 1;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -53,6 +50,7 @@
     position: inherit;
     font-size: x-small;
   }
+
   
   
   .image img{
@@ -60,5 +58,6 @@
     width: 90%;
     height: 40%;
     margin-left: -45%;
+    opacity: 0.1;
   }
 }
