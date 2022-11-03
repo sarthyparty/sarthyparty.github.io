@@ -16,12 +16,12 @@ class Education extends React.Component {
           title="Computer Science Student"
           location="University of Wisconsin"
           date="Sept. 2022 - Present"
-          description="Well I just started, so not much to say. I am taking Programming III (which involves more advanced data structures and algorithms) and Intro to Computer Engineering. "
+          description="I have a lot of credits from dual-enrollment and APs so I'm deciding additional majors/minors. I'm pretty set on Economics and am considering a Business minor and Data Science major."
         />
         <br/>
         <div>
           <Info
-            title="PSEO Student"
+            title="Dual-Enrollment Student"
             location="University of Minnesota"
             date="Sept. 2021 - May 2022"
             description="Took Computer Science, Math, and Economics courses as a highschool student through a dual-enrollment program."
