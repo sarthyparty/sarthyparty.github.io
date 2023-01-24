@@ -2,11 +2,11 @@ export const projects = [
   {
     name: "EPHS Maps",
     description: 
-    `Originally, we actually used DFS for pathfinding. However, as we incorporated more of the school into our app, we quickly ran into a speed issue with DFS and thus eventually switched to A star.
+    `This is a GPS app to help new students, faculty, and parents navigate the complex building with ease. SwiftUI, UIKit, and Combine were used to build the app's fluid and comfortable UI.
     
-    Thanks to this, I was able to learn a lot about graph traversals and pathfinding algorithms including dijkstra's algorithm which we implemented as well in Swift before finally A star.
+    In this project, I was able to learn a lot about graph traversals and pathfinding algorithms including dijkstra's algorithm which we implemented as well in Swift before finally A star.
     
-    Our heuristic model uses geographic distance to estimate the cost.`,
+    This app is published on the App Store and has over 800 downloads since being published in May 2022.`,
     image: "gps.png",
     link: "https://github.com/sarthyparty/Find-My-EP"
   },

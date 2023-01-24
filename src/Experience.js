@@ -15,6 +15,17 @@ class Experience extends React.Component {
           <div>
             <Info
               title="Software Engineer Intern"
+              location="Splunk"
+              date="May 2023 - August 2023"
+              description="I'll intern here in the summer!
+              "
+              id="first"
+            />
+          </div>
+          <br/>
+          <div>
+            <Info
+              title="Software Engineer Intern"
               location="Optum"
               date="June 2022 - August 2022"
               description="My team’s project is to build a monitoring dashboard for 22+ microservices that deliver critical information for Optum's various services including Optum Bank.
